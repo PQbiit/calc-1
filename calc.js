@@ -34,6 +34,28 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(Math.sqrt(num1));
 	}
 
+	// Implentation of calculator using switch statement for handling mathematical operations
+
+	// switch (mathSymbol) {
+	// 	case "+":
+	// 		console.log(num1 + num2)
+	// 		break;
+	// 	case "-":
+	// 		console.log(num1 - num2)
+	// 		break;
+	// 	case "*":
+	// 		console.log(num1 * num2)
+	// 		break;
+	// 	case "/":
+	// 		console.log(num1 / num2)
+	// 		break;
+	// 	case "sqrt":
+	// 		console.log(Math.sqrt(num1))
+	// 		break;
+	// 	default:
+	// 		break;
+	// }
+
 	// This line closes the connection to the command line interface.
 	reader.close()
 
