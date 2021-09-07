@@ -11,23 +11,24 @@ reader.question("What would you like to calculate?", function(input){
 	mathSymbol = tokens[0];
 	num1 = Number(tokens[1]);
 	num2 = Number(tokens[2]);
+	num3 = Number(tokens[3]);
 
 	// Implentation of calculator using if statement for handling mathematical operations
 
 	if (mathSymbol === '+') {
-		console.log(num1 + num2);
+		console.log(num1 + num2 + num3);
 	}
 
 	if (mathSymbol === '-') {
-		console.log(num1 - num2);
+		console.log(num1 - num2 - num3);
 	}
 
 	if (mathSymbol === '*') {
-		console.log(num1 * num2);
+		console.log(num1 * num2 * num3);
 	}
 
 	if (mathSymbol === '/') {
-		console.log(num1 / num2);
+		console.log((num1 / num2)/num3);
 	}
 
 	if (mathSymbol === 'sqrt') {
@@ -57,16 +58,16 @@ reader.question("What would you like to calculate?", function(input){
 
 	switch (mathSymbol) {
 		case "+":
-			console.log(num1 + num2)
+			console.log(num1 + num2 + num3);
 			break;
 		case "-":
-			console.log(num1 - num2)
+			console.log(num1 - num2 - num3);
 			break;
 		case "*":
-			console.log(num1 * num2)
+			console.log(num1 * num2 * num3);
 			break;
 		case "/":
-			console.log(num1 / num2)
+			console.log((num1 / num2)/num3);
 			break;
 		case "sqrt":
 			console.log(Math.sqrt(num1))
